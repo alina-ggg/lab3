@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
-#include <cmath>
-#include <ctime>
-#include <cstdlib>
-#include <numeric>
-#include <algorithm>
+#include <cmath> // математические функции (sqrt)
+#include <ctime> // srand(time(0)) для оживления генератора случайных чисел, чтобы они были разными
+#include <cstdlib> // функции rand() (генерация случайного числа) и srand() (установка стартовой точки для генератора)
+#include <numeric> // функция gcd (нахождение наибольшего общего делителя — НОД)
+#include <algorithm> // для сортировки, поиска, обмена. функция swap(a, b)
 
 using namespace std;
 
